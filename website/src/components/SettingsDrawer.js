@@ -28,7 +28,7 @@ export default class SettingsDrawer extends React.Component {
   render() {
     if (this.props.visible) {
       return (
-        <div id="SettingsDrawer" className="dialog" onClick={this._outerClick}>
+        <div id="SettingsDrawer" className="drawer" onClick={this._outerClick}>
           <div className="inner">
             <div className="header">
               <h3>Settings</h3>
